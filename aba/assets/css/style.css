@@ -1,4 +1,23 @@
 
+
+.whatsapp.btn {
+    position: fixed;
+    bottom: 8px;
+    right: 15px;
+    z-index: 3;
+    transition: bottom .3s;
+}
+
+.whatsapp.btn img {
+    width: 178px;
+    height: 68px;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
 .header-top-area {
     background: transparent;
     border-bottom: 1px solid rgba(30, 38, 109, 0.1);
